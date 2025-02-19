@@ -60,7 +60,7 @@ data; copy the folder into the environment.
 https://drive.google.com/drive/folders/1KNZYa9dd96nyBZ3kJqvgcqFy7q6X14Fn?usp=drive_link
 
 Before running the demo, you will need a way to view RVIZ2 to see the detections.
-We used the following GUI viewer, and you will either need to install and run this
+We used the following GUI viewer, and you will need to install and run this
 before starting the demo or some similar GUI viewer:
 
 https://sourceforge.net/projects/vcxsrv/
