@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>camera_combiner</name>
+  <version>0.1.0</version>
+  <description>Launch all sensors at the same time</description>
+
+  <maintainer email="ethan.c.rogers@gmail.com">Ethan Rogers</maintainer>
+  <license>BSD</license>
+
+  <!-- Build dependencies -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_auto</buildtool_depend>
+
+  <!-- Runtime dependencies -->
+  <depend>rclcpp</depend>
+  <depend>rclcpp_components</depend>
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>rviz2</depend>
+  <depend>tf2_ros</depend>
+  <depend>camera_info_manager</depend>
+  <depend>cv_bridge</depend>
+  <depend>image_transport</depend>
+  <depend>pluginlib</depend>
+  <depend>rcutils</depend>
+  <depend>usb_cam</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
