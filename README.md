@@ -30,19 +30,23 @@ the directory in VSCode, you will be prompted to "build" the environment as a
 Dev Container. After starting the build, it may take a long time to complete.
 
 Once the environment is built, the next step is to build the ROS environment
-inside of the Dev Container. Type in the following commands in the terminal:
+inside of the Dev Container. Type in the following commands in the terminal:  
 
-source /opt/ros/humble/setup.bash
-rosdep update
-rosdep install --from-paths src --ignore-src -r -y
-colcon build
-source install/setup.bash
+
+source /opt/ros/humble/setup.bash  
+rosdep update  
+rosdep install --from-paths src --ignore-src -r -y  
+colcon build  
+source install/setup.bash  
+
 
 If any changes are made inside the 'src' directory, you should re-enter the 
 following commands to update:
 
-colcon build
-source install/setup.bash
+
+colcon build  
+source install/setup.bash  
+
 
 After the camera_combiner package has been built, make sure that the 
 environment's Python interpreter is in use when selecting a Python file, and 
