@@ -19,6 +19,10 @@ https://github.com/ethanrogers15/project_fused_ros
 The model training environment is located here:
 https://github.com/ethanrogers15/mediapipe_model_maker
 
+Before following the instructions below to run this environment, note that 
+the environment build and the data download for running the demo take up
+multiple GB of space!
+
 To run this virtual environment, you will need Docker Desktop and VSCode with
 the Remote Development & Dev Containers extensions. The virtual environments
 for Project FUSED were built on a Windows laptop, but we used WSL with Ubuntu
