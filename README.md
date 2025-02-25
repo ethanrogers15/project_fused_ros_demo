@@ -26,8 +26,15 @@ to interface with the ROS environment. So, to run this demo, you will need
 WSL and a version of Ubuntu set up if you are using a Windows machine. 
 
 You will need to clone the repository into the WSL file system. After opening 
-the directory in VSCode, you will be prompted to "build" the environment as a 
-Dev Container. After starting the build, it may take a long time to complete.
+the directory in VSCode, run the following command to ensure that the correct
+Docker network is ready:
+
+
+docker network create ros_network
+
+
+You will be prompted to "build" the environment as a Dev Container. After 
+starting the build, it may take a long time to complete.
 
 Once the environment is built, the next step is to build the ROS environment
 inside of the Dev Container. Type in the following commands in the terminal:  
